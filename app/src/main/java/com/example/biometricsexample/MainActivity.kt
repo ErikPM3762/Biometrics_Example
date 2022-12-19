@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
                     override fun onAuthenticationSucceeded(result: BiometricPrompt.AuthenticationResult) {
                         super.onAuthenticationSucceeded(result)
                         auth(true)
-                       Toast.makeText(this@MainActivity,"Se ejecuto el Biometrico",Toast.LENGTH_SHORT).show()
+                       Toast.makeText(this@MainActivity,"Se ejecuto el Biometrico.",Toast.LENGTH_SHORT).show()
 //En este ejemplo estamos permitiendole al usuario pasar a un nuevo fragmento.
 //La parte del success debe de ser configurada para su uso.
                     }
